@@ -2,7 +2,7 @@
   "name": "converter-texto",
   "displayName": "Converter Maiúsculas e Minúsculas",
   "description": "Esta extensão converte o caso do texto selecionado e oferece várias opções de formatação.",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "publisher": "LuizDark",
   "icon": "assets/icon-light.png",
   "engines": {
