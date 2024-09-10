@@ -22,7 +22,6 @@
   <img src="https://github.com/lauro17/converter-texto/blob/main/assets/Print/print-1.png" alt="Descrição da imagem" width="300" />
 </p>
 
-
 <p align="center">Esta extensão converte o caso do texto selecionado e oferece várias opções de formatação para otimizar seu fluxo de trabalho.</p>
 
 ## 📦 O que há de novo
