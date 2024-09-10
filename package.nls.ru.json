@@ -1,0 +1,9 @@
+{
+  "convertCase": "ВЕРХНИЙ РЕГИСТР ↔ нижний регистр",
+  "convertTitleCase": "Заголовок ↔ заголовок",
+  "convertUnderscoreCamel": "текст_с_подчеркиванием ↔ CamelCaseText",
+  "convertHyphenSpace": "текст-пример ↔ текст пример",
+  "convertUnderscoreToSpace": "текст_с_подчеркиванием ↔ текст с пробелом",
+  "convertUnderscoreToHyphen": "текст_с_подчеркиванием ↔ текст-с-подчеркиванием",
+  "convertSpaceToUnderscore": "текст пример ↔ текст_пример"
+}

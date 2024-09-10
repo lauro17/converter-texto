@@ -1,0 +1,10 @@
+{
+    "convertCase": "GROßBUCHSTABEN ↔ kleinbuchstaben",
+    "convertTitleCase": "Titel ↔ titel",
+    "convertUnderscoreCamel": "text_mit_unterstrich ↔ CamelCaseText",
+    "convertHyphenSpace": "text-beispiel ↔ text beispiel",
+    "convertUnderscoreToSpace": "text_mit_unterstrich ↔ text mit raum",
+    "convertUnderscoreToHyphen": "text_mit_unterstrich ↔ text-mit-untersrich",
+    "convertSpaceToUnderscore": "text beispiel ↔ text_mit_untersrich"
+  }
+  

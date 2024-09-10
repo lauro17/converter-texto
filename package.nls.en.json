@@ -1,0 +1,9 @@
+{
+  "convertCase": "UPPERCASE ↔ lowercase",
+  "convertTitleCase": "Title ↔ title",
+  "convertUnderscoreCamel": "text_with_underscore ↔ CamelCaseText",
+  "convertHyphenSpace": "text-example ↔ text example",
+  "convertUnderscoreToSpace": "text_with_underscore ↔ text with space",
+  "convertUnderscoreToHyphen": "text_with_underscore ↔ text-with-underscore",
+  "convertSpaceToUnderscore": "text example ↔ text_example"
+}

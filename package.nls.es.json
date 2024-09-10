@@ -1,0 +1,10 @@
+{
+    "convertCase": "MAYÚSCULAS ↔ minúsculas",
+    "convertTitleCase": "Título ↔ título",
+    "convertUnderscoreCamel": "texto_con_guion_bajo ↔ TextoConCamelCase",
+    "convertHyphenSpace": "texto-ejemplo ↔ texto ejemplo",
+    "convertUnderscoreToSpace": "texto_con_guion_bajo ↔ texto con espacio",
+    "convertUnderscoreToHyphen": "texto_con_guion_bajo ↔ texto-con-guion-bajo",
+    "convertSpaceToUnderscore": "texto ejemplo ↔ texto_con_guion_bajo"
+  }
+  

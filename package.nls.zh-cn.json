@@ -1,0 +1,9 @@
+{
+  "convertCase": "大写字母 ↔ 小写字母",
+  "convertTitleCase": "标题 ↔ 标题",
+  "convertUnderscoreCamel": "带下划线的文本 ↔ CamelCase文本",
+  "convertHyphenSpace": "文本-示例 ↔ 文本 示例",
+  "convertUnderscoreToSpace": "带下划线的文本 ↔ 文本 空格",
+  "convertUnderscoreToHyphen": "带下划线的文本 ↔ 文本-带下划线",
+  "convertSpaceToUnderscore": "文本 示例 ↔ 文本_示例"
+}

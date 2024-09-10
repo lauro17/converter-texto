@@ -1,0 +1,110 @@
+# 1. Maiúsculas ↔ minúsculas
+
+## Texto Original
+ESTE É UM TEXTO EM MAIÚSCULAS.
+
+## Após Aplicar `extension.convertCase`
+este é um texto em maiúsculas.
+
+
+## Texto Original
+este é um texto em minúsculas.
+
+## Após Aplicar `extension.convertCase`
+ESTE É UM TEXTO EM MAIÚSCULAS.
+
+
+# 2. Título ↔ título
+
+## Texto Original
+Este é Um Texto Em TÍTulo.
+
+## Após Aplicar `extension.convertTitleCase`
+Este É Um Texto Em Título.
+
+
+## Texto Original
+este é um texto em título.
+
+## Após Aplicar `extension.convertTitleCase`
+este é um texto em título.
+
+
+# 3. Underscore para Camel Case ↔ Camel Case para Underscore
+
+## Texto Original
+texto_com_underscore
+
+## Após Aplicar `extension.convertUnderscoreCamel`
+TextoComUnderscore
+
+
+## Texto Original
+TextoComUnderscore
+
+## Após Aplicar `extension.convertUnderscoreCamel`
+texto_com_underscore
+
+
+# 4. Hífen para Espaço ↔ Espaço para Hífen
+
+## Texto Original
+texto-exemplo-com-hifen
+
+## Após Aplicar `extension.convertHyphenSpace`
+texto exemplo com hifen
+
+
+## Texto Original
+texto exemplo com espaço
+
+## Após Aplicar `extension.convertHyphenSpace`
+texto-exemplo-com-espaço
+
+
+# 5. Underscore para Espaço ↔ Espaço para Underscore
+
+## Texto Original
+texto_com_underscore
+
+## Após Aplicar `extension.convertUnderscoreToSpace`
+texto com underscore
+
+
+## Texto Original
+texto com underscore
+
+## Após Aplicar `extension.convertUnderscoreToSpace`
+texto_com_underscore
+
+
+# 6. Underscore para Hífen ↔ Hífen para Underscore
+
+## Texto Original
+texto_com_underscore
+
+## Após Aplicar `extension.convertUnderscoreToHyphen`
+texto-com-underscore
+
+
+## Texto Original
+texto-com-underscore
+
+## Após Aplicar `extension.convertUnderscoreToHyphen`
+texto com underscore
+
+
+# 7. Espaço para Underscore ↔ Underscore para Espaço
+
+## Texto Original
+texto exemplo
+
+## Após Aplicar `extension.convertSpaceToUnderscore`
+texto_exemplo
+
+
+## Texto Original
+texto_exemplo
+
+## Após Aplicar `extension.convertSpaceToUnderscore`
+texto exemplo

@@ -1,0 +1,126 @@
+{
+  "name": "converter-texto",
+  "displayName": "Converter Maiúsculas e Minúsculas",
+  "description": "Esta extensão converte o caso do texto selecionado e oferece várias opções de formatação.",
+  "version": "0.0.5",
+  "publisher": "LuizDark",
+  "icon": "assets/icon-light.png",
+  "engines": {
+    "vscode": "^1.78.0"
+  },
+  "categories": [
+    "Formatters"
+  ],
+  "keywords": [
+    "convert",
+    "text",
+    "case",
+    "format",
+    "text-formatting"
+  ],
+  "extensionKind": [
+    "ui",
+    "workspace"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lauro17/converter-texto"
+  },
+  "homepage": "https://github.com/lauro17/converter-texto",
+  "bugs": {
+    "url": "https://github.com/lauro17/converter-texto/issues"
+  },
+  "activationEvents": [
+    "onCommand:extension.convertCase",
+    "onCommand:extension.convertTitleCase",
+    "onCommand:extension.convertUnderscoreCamel",
+    "onCommand:extension.convertHyphenSpace",
+    "onCommand:extension.convertUnderscoreToSpace",
+    "onCommand:extension.convertUnderscoreToHyphen"
+  ],
+  "main": "./src/extension.js",
+  "l10n": "./l10n",
+  "contributes": {
+    "commands": [
+      {
+        "command": "extension.convertCase",
+        "title": "%convertCase%"
+      },
+      {
+        "command": "extension.convertTitleCase",
+        "title": "%convertTitleCase%"
+      },
+      {
+        "command": "extension.convertUnderscoreCamel",
+        "title": "%convertUnderscoreCamel%"
+      },
+      {
+        "command": "extension.convertHyphenSpace",
+        "title": "%convertHyphenSpace%"
+      },
+      {
+        "command": "extension.convertUnderscoreToSpace",
+        "title": "%convertUnderscoreToSpace%"
+      },
+      {
+        "command": "extension.convertUnderscoreToHyphen",
+        "title": "%convertUnderscoreToHyphen%"
+      }
+    ],
+    "menus": {
+      "editor/context": [
+        {
+          "command": "extension.convertCase",
+          "group": "navigation@1",
+          "when": "editorTextFocus",
+          "order": 1
+        },
+        {
+          "command": "extension.convertTitleCase",
+          "group": "navigation@2",
+          "when": "editorTextFocus",
+          "order": 2
+        },
+        {
+          "submenu": "extension.formatar",
+          "group": "navigation@3",
+          "when": "editorTextFocus",
+          "order": 3
+        }
+      ],
+      "extension.formatar": [
+        {
+          "command": "extension.convertUnderscoreCamel",
+          "group": "navigation@1",
+          "when": "editorTextFocus",
+          "order": 1
+        },
+        {
+          "command": "extension.convertHyphenSpace",
+          "group": "navigation@2",
+          "when": "editorTextFocus",
+          "order": 2
+        },
+        {
+          "command": "extension.convertUnderscoreToSpace",
+          "group": "navigation@3",
+          "when": "editorTextFocus",
+          "order": 3
+        },
+        {
+          "command": "extension.convertUnderscoreToHyphen",
+          "group": "navigation@4",
+          "when": "editorTextFocus",
+          "order": 4
+        }
+      ]
+    },
+    "submenus": [
+      {
+        "id": "extension.formatar",
+        "label": "Formatar Como",
+        "icon": "$(gear)"
+      }
+    ]
+  }
+}

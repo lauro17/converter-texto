@@ -1,0 +1,9 @@
+{
+  "convertCase": "大文字 ↔ 小文字",
+  "convertTitleCase": "タイトル ↔ タイトル",
+  "convertUnderscoreCamel": "アンダースコア付きテキスト ↔ CamelCaseテキスト",
+  "convertHyphenSpace": "テキスト-例 ↔ テキスト 例",
+  "convertUnderscoreToSpace": "アンダースコア付きテキスト ↔ テキスト スペース",
+  "convertUnderscoreToHyphen": "アンダースコア付きテキスト ↔ テキスト-アンダースコア",
+  "convertSpaceToUnderscore": "テキスト 例 ↔ テキスト_例"
+}
