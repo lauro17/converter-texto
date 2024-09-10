@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://github.com/lauro17/converter-texto-main" rel="noopener">
-    <img src="https://github.com/lauro17/converter-texto-main/raw/main/assets/Print/banner1.jpeg" alt="Project logo">
+    <img src="https://github.com/lauro17/converter-texto/blob/main/assets/Print/banner1.jpeg" alt="Project logo">
   </a>
 </p>
 
@@ -19,7 +19,7 @@
 ---
 
 <p align="center">
-  <img src="https://github.com/lauro17/converter-texto-main/raw/main/assets/Print/print-1.jpeg" alt="Descrição da imagem" width="300" />
+  <img src="https://github.com/lauro17/converter-texto/blob/main/assets/Print/print-1.png" alt="Descrição da imagem" width="300" />
 </p>
 
 
